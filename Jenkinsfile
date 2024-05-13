@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Run Python script directly without using nohup
-                bat 'javascript hello.js'
+                bat 'node hello.js'
             }
         }
     }
